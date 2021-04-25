@@ -1,0 +1,5 @@
+.card {
+  display: grid;
+  grid-template-rows: 282px 78px;
+  position: relative;
+}

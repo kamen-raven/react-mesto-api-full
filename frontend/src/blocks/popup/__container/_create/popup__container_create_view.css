@@ -1,0 +1,7 @@
+.popup__container_create_view {
+  background-color: transparent;
+  box-shadow: none;
+  margin: 0 40px;
+  max-width: 75vw;
+  max-height: 75vh;
+}

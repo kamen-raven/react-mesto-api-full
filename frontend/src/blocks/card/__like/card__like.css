@@ -1,0 +1,6 @@
+.card__like {
+  max-width: 44px;
+  width: 100%;
+  box-sizing: border-box;
+  flex-direction: column;
+}

@@ -1,0 +1,40 @@
+.popup__save-button {
+  align-self: center;
+  max-width: 358px;
+  width: 100%;
+  background-color: #000000;
+  border: none;
+  border-radius: 2px;
+  box-shadow: none;
+  box-sizing: border-box;
+  padding: 14px 0;
+  margin: 36px 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  user-select: none;
+}
+
+  .popup__save-button:hover {
+    cursor: pointer;
+    opacity: .8;
+    transition: opacity .3s ease-in;
+}
+
+
+.popup__save-button:disabled {
+  pointer-events: none;
+}
+
+@media (max-width: 720px) {
+  .popup__save-button{
+    font-size: 14px;
+    line-height: 17px;
+    padding: 11.5px 0;
+    margin: 36px 0 30px;
+    max-width: 200px;
+  }
+}

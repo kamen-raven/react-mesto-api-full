@@ -1,0 +1,20 @@
+.cards {
+  display: grid;
+  max-width: 882px;
+  margin: 0 auto 66px;
+  grid-template-columns:repeat(auto-fit, 282px);
+  grid-template-rows: repeat(auto-fit, 360px);
+  grid-auto-rows: 360px;
+  gap: 20px 18px;
+  justify-content: center;
+}
+
+
+
+
+
+@media (max-width: 425px) {
+  .cards {
+    gap: 20px 19px;
+  }
+}

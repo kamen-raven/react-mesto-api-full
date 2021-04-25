@@ -1,0 +1,11 @@
+.auth-page__form {
+  margin: 0 36px;
+}
+
+
+
+@media (max-width: 720px) {
+  .auth-page__form {
+    margin: 0 30px;
+  }
+}

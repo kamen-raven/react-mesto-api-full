@@ -1,0 +1,38 @@
+.auth-page__sumbit-button {
+  align-self: center;
+  max-width: 358px;
+  width: 100%;
+  background-color: #fff;
+  border: none;
+  border-radius: 2px;
+  box-shadow: none;
+  box-sizing: border-box;
+  padding: 14px 0;
+  margin: 216px auto auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000;
+  user-select: none;
+}
+
+.auth-page__sumbit-button:hover {
+    cursor: pointer;
+    opacity: .85;
+    transition: opacity .3s ease-in;
+}
+
+
+.auth-page__sumbit-button:disabled {
+  pointer-events: none;
+}
+
+@media (max-width: 720px) {
+.auth-page__sumbit-button{
+  margin-top: 173px;
+  font-size: 16px;
+  line-height: 18px;
+  }
+}

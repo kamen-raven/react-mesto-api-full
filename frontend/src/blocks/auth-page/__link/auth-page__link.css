@@ -1,0 +1,15 @@
+.auth-page__link {
+  margin: 15px 0 auto 5px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.auth-page__link:hover {
+  cursor: pointer;
+  opacity: .6;
+  transition: opacity .3s ease-in;
+}

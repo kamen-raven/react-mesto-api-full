@@ -1,0 +1,13 @@
+.auth-page__container {
+  margin: 60px auto auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 898px) {
+  .auth-page__container {
+    margin: 40px auto auto;
+  }
+}

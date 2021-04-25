@@ -1,0 +1,14 @@
+.header__links {
+  margin-right: 24px;
+}
+
+.header__links:last-child {
+  margin-right: 0;
+}
+
+
+@media (max-width: 598px) {
+  .header__links {
+    margin-right: 0;
+  }
+}

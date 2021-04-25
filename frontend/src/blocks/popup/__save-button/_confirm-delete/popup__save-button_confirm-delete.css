@@ -1,0 +1,10 @@
+.popup__save-button_confirm-delete {
+  margin: 0 0 36px;
+}
+
+@media (max-width: 720px) {
+  .popup__save-button_confirm-delete {
+    margin: 6px 0 30px;
+  }
+}
+

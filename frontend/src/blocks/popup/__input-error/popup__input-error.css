@@ -1,0 +1,25 @@
+.popup__input-error {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FF0000;
+  margin: 5px 0 23px;
+  position: absolute;
+  opacity: 0;
+  transition: all .3s ease 0;
+  max-width: 354px;
+}
+
+.popup__input-error:last-child {
+  margin-bottom: 0;
+}
+
+
+@media (max-width: 720px) {
+  .popup__input-error {
+    font-size: 8px;
+    line-height: 12px;
+    max-width: 196px;
+  }
+}

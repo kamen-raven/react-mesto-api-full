@@ -1,0 +1,14 @@
+.popup__container_create_form {
+  background-color: #ffffff;
+  max-width: 430px;
+  width: 100%;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+@media (max-width: 720px) {
+  .popup__container_create_form {
+    margin: 0 40px;
+    max-width: 240px;
+  }
+}
